@@ -3,14 +3,14 @@ app.config(function ($routeProvider) {
     $routeProvider 
         .when('/', { 
             controller: 'HomeController', 
-            templateUrl: '../views/home.html' 
+            templateUrl: '../ProjectTemplateWeb/views/home.html' 
         })
         .when('/articles/:id',{
       	    controller: 'ArticleController',
-            templateUrl: '../views/article.html'
+            templateUrl: '../ProjectTemplateWeb/views/article.html'
       
         })
         .otherwise({ 
-          redirectTo: '../' 
+          redirectTo: '/'
         }); 
 });
