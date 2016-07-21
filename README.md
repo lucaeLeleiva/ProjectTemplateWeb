@@ -1,5 +1,7 @@
 # ProjectTemplateWeb
 
+Las imagenes de la pagina de prueba se obtienen de https://s3.amazonaws.com/codecademy-content/courses/ltp4/photos-api/photos.json
+
 ###Lista de TODO´s
 
 - Rever index.php
