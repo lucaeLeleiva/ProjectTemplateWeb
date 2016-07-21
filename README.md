@@ -2,13 +2,13 @@
 
 ###Lista de TODO´s
 
--Rever index.php
--Agregar imagenes
--Crear documento a leer (pseudo back-end)
--Corregir los controllers
--Corregir app.js
--Corregir views
--Corregir TODO list (?
+- Rever index.php
+- Agregar imagenes
+- Crear documento a leer (pseudo back-end)
+- Corregir los controllers
+- Corregir app.js
+- Corregir views
+- Corregir TODO list (?
 
 ###Objetivos
 
