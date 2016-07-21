@@ -3,7 +3,7 @@ app.config(function ($routeProvider) {
     $routeProvider 
         .when('/', { 
             controller: 'HomeController', 
-            templateUrl: '../ProjectTemplateWeb/views/home.html' 
+            templateUrl: '/views/home.html' 
         })
         .when('/articles/:id',{
       	    controller: 'ArticleController',
