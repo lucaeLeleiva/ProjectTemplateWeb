@@ -1,17 +1,26 @@
 # ProjectTemplateWeb
 
-Las imagenes de la pagina de prueba se obtienen de https://s3.amazonaws.com/codecademy-content/courses/ltp4/photos-api/photos.json
+El archivo hardcoded.json es una copia del contenido de este link: https://s3.amazonaws.com/codecademy-content/courses/ltp4/photos-api/photos.json
 
 ###Lista de TODO´s
 
-- Rever index.php
-- Agregar imagenes
-- Crear documento a leer (pseudo back-end)
-- Corregir los controllers
-- Corregir app.js
-- Corregir views
+- Rever index.php[WIP]
+- Agregar imagenes[DONE]
+- Crear documento a leer (pseudo back-end)[WIP]
+  - Personalizar el documento
+  - Agregar otro documento con la info de la empresa
+  - Corregir nombre de archivos
+- Corregir controllers[DONE]
+- Agregar Empresa
+  - Agregar controllers de Empresa
+  - Agregar service de Empresa
+  - Implementar Empresa en index.html
+- Corregir app.js[DONE]
+- Corregir views[DONE]
+- Agregar jQuery 
+  -Implementar carrusel y menus moviles.
 - Corregir TODO list (?
 
 ###Objetivos
 
-Estandarizar los nombres y hacer una muestra estatica similar a la del proyecto de php sin back-end.
+Crear una pagina estatica similar a la del proyecto de php con un pseudo back-end.
