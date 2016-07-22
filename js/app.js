@@ -1,16 +1,16 @@
-var app = angular.module('GalleryApp', ['ngRoute']);
+var app = angular.module('App-Generica', ['ngRoute']);
 app.config(function ($routeProvider) { 
     $routeProvider 
         .when('/', { 
             controller: 'HomeController', 
-            templateUrl: 'views/home.html' 
+            templateUrl: '../ProjectTemplateWeb/views/home.html' 
         })
-        .when('/photos/:id',{
-      	    controller: 'PhotoController',
-            templateUrl: 'views/photo.html'
+        .when('/articles/:id',{
+      	    controller: 'ArticleController',
+            templateUrl: '../ProjectTemplateWeb/views/article.html'
       
         })
         .otherwise({ 
-          redirectTo: '/' 
+          redirectTo: '/'
         }); 
 });
