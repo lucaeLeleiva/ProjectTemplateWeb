@@ -1,7 +1,7 @@
 var app = angular.module('App-Generica', ['ngRoute']);
 app.config(function ($routeProvider) { 
     $routeProvider 
-        .when('/ProjectTemplateWeb', { 
+        .when('../ProjectTemplateWeb', { 
             controller: 'HomeController', 
             templateUrl: '../ProjectTemplateWeb/views/home.html' 
         })
@@ -11,6 +11,6 @@ app.config(function ($routeProvider) {
       
         })
         .otherwise({ 
-          redirectTo: '/'
+          redirectTo: '../'
         }); 
 });
