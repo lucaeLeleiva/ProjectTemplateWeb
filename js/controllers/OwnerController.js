@@ -1,5 +1,5 @@
-app.controller('OwnerController', ['$scope', 'owner', function($scope, owner) {
-  owner.success(function(data) {
+app.controller('OwnerController', ['$scope', 'owners', function($scope, owners) {
+  ownesr.success(function(data) {
     $scope.owner = data;
   });
 }]);
