@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html ng-app="App-Generica">
+<html ng-app="App-Generica" ng-controller="OwnerController">
 
     <head>
         <meta name="author" content="Nosotros ñe (?" />
     
         <!-- metatags de contenido -->
         <meta charset="utf-8">
-        <title ng-controller="OwnerController">{{ owner.title }}</title><!-- Atado a variable para cambiarlo facilmente -->
+        <title>{{ owner.title }}</title><!-- Atado a variable para cambiarlo facilmente -->
     
         <!-- metatags de diseño -->
         <meta name="viewport" content="width=device-width ,initial-scale=1">
@@ -38,7 +38,7 @@
     
     <body>
         
-        <nav ng-controller="OwnerController" class="navbar navbar-default navbar-fixed-top">
+        <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container-fluid">
                 <div class="navbar-header">
                     <a class="navbar-brand" href="#">
