@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="App-Generica">
 
     <head>
         <meta name="author" content="Nosotros ñe (?" />
     
         <!-- metatags de contenido -->
         <meta charset="utf-8">
-        <title>***</title><!-- Atado a variable para cambiarlo facilmente -->
+        <title>{{ owner.title }}</title><!-- Atado a variable para cambiarlo facilmente -->
     
         <!-- metatags de diseño -->
         <meta name="viewport" content="width=device-width ,initial-scale=1">
@@ -36,13 +36,13 @@
     
     </head>
     
-    <body ng-app="App-Generica">
+    <body>
         
         <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container-fluid">
                 <div class="navbar-header">
                     <a class="navbar-brand" href="#">
-                        <img alt="Brand" src="...">
+                        <p>{{ owner.author }}</p>
                     </a>
                 </div>
             </div>
