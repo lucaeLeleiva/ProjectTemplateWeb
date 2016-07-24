@@ -6,4 +6,4 @@ app.factory('owner', ['$http', function($http) {
          .error(function(data) {
            return data;
          });
-}]););
+}]);
