@@ -1,16 +1,16 @@
 var app = angular.module('App-Generica', ['ngRoute']);
 app.config(function ($routeProvider) { 
     $routeProvider 
-        .when('/', { 
+        .when('/ProjectTemplateWeb', { 
             controller: 'HomeController', 
-            templateUrl: 'ProjectTemplateWeb/views/home.html' 
+            templateUrl: '../ProjectTemplateWeb/views/home.html' 
         })
-        .when('/articles/:id',{
+        .when('/ProjectTemplateWeb/articles/:id',{
       	    controller: 'ArticleController',
-            templateUrl: 'ProjectTemplateWeb/views/article.html'
+            templateUrl: '../ProjectTemplateWeb/views/article.html'
       
         })
         .otherwise({ 
-          redirectTo: '/'
+          redirectTo: 'https://lucaeleleiva.github.io/ProjectTemplateWeb/'
         }); 
 });
