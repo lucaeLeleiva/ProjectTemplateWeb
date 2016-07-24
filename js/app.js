@@ -5,7 +5,7 @@ app.config(function ($routeProvider) {
             controller: 'HomeController', 
             templateUrl: '../ProjectTemplateWeb/views/home.html' 
         })
-        .when('ProjectTemplateWeb/articles/:id',{
+        .when('/articles/:id',{
       	    controller: 'ArticleController',
             templateUrl: '../ProjectTemplateWeb/views/article.html'
       
