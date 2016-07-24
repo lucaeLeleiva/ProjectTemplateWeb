@@ -11,6 +11,6 @@ app.config(function ($routeProvider) {
       
         })
         .otherwise({ 
-          redirectTo: 'https://lucaeleleiva.github.io/ProjectTemplateWeb/'
+          redirectTo: '/'
         }); 
 });
