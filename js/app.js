@@ -1,7 +1,7 @@
 var app = angular.module('App-Generica', ['ngRoute']);
 app.config(function ($routeProvider) { 
     $routeProvider 
-        .when('../ProjectTemplateWeb', { 
+        .when('/', { 
             controller: 'HomeController', 
             templateUrl: '../ProjectTemplateWeb/views/home.html' 
         })
