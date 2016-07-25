@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html ng-app="App-Generica">
-
+<section ng-controller="OwnerController">
     <head>
         <meta name="author" content="Nosotros ñe (?" />
     
         <!-- metatags de contenido -->
         <meta charset="utf-8">
-        <title ng-controller="OwnerController">{{ duenio.title }}</title><!-- Atado a variable para cambiarlo facilmente -->
+        <title>{{ duenio.title }}</title><!-- Atado a variable para cambiarlo facilmente -->
     
         <!-- metatags de diseño -->
         <meta name="viewport" content="width=device-width ,initial-scale=1">
@@ -39,14 +39,12 @@
     <body>
         
         <nav class="navbar navbar-default navbar-fixed-top">
-            <div class="container-fluid" ng-controller="OwnerController">
-                <div class="duenio">
+            <div class="container-fluid" >
                     <div class="navbar-header">
                         <a class="navbar-brand" href="#">
                             <p class="duenio-author">{{ duenio.author }}</p>
                         </a>
                     </div>
-                </div>
             </div>
         </nav>
         
@@ -84,5 +82,5 @@
         <script src="js/services/articles.js"></script>
         <script src="js/services/owners.js"></script>
     </body>
-
+</section>
 </html>
