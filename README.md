@@ -18,7 +18,7 @@ El archivo hardcoded.json es una copia del contenido de este link: https://s3.am
 - Corregir app.js[DONE]
 - Corregir views[DONE]
 - Agregar jQuery 
-  -Implementar carrusel y menus moviles.
+  - Implementar carrusel y menus moviles.
 - Corregir TODO list (?
 
 ###Objetivos
