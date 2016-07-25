@@ -6,7 +6,7 @@
     
         <!-- metatags de contenido -->
         <meta charset="utf-8">
-        <title ng-controller="OwnerController">{{ title }}</title><!-- Atado a variable para cambiarlo facilmente -->
+        <title ng-controller="OwnerController">{{ duenio.title }}</title><!-- Atado a variable para cambiarlo facilmente -->
     
         <!-- metatags de diseño -->
         <meta name="viewport" content="width=device-width ,initial-scale=1">
@@ -42,7 +42,7 @@
             <div class="container-fluid" ng-controller="OwnerController">
                 <div class="navbar-header">
                     <a class="navbar-brand" href="#">
-                        <p>{{ owner.author }}</p>
+                        <p>{{ duenio.author }}</p>
                     </a>
                 </div>
             </div>
