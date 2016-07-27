@@ -2,7 +2,7 @@ var app = angular.module('App-Generica', ['ngRoute']);
 app.config(function ($routeProvider) { 
     $routeProvider 
         .when('/', { 
-            controller: 'OwnerController', 
+            controller: 'HomeController', 
             templateUrl: '../ProjectTemplateWeb/views/home.html' 
         })
         .when('/articles/:id',{
